@@ -16,16 +16,36 @@ body {
 
 .list{
     list-style: none;
-    padding-left: 0;
 }
 
-.header-font {
-    font-weight: 500;
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: calc(3*(1em/50)/2);
+    color: var(--main-dark);
+}
+
+.logo-top {
+    color: #000;
 }
 
 .link {
     text-decoration: none;
     color: var(--main-font-color);
+    line-height: 1.14;
+    letter-spacing: calc(1em/50);
+    font-weight: 500;
+}
+
+.accent {
+    color: var(--main-blue);
+}
+
+.contacts-top {
+    color: var(--secondary-font-color);
 }
 
 .link:hover {
@@ -36,67 +56,31 @@ body {
     color: var(--main-blue);
 }
 
-.mail-tel {
-  color: var(--secondary-font-color);
-}
-
-.header {
-    /*padding: 0px 215px 32px 215px;*/
-    line-height: 1.14;
-}
-
-.logo {
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.19;
-    color: var(--main-dark);
-    padding-left: 0;
-}
-
-.logo-top {
-    color: #000;
-}
-
-.accent {
-    color: var(--main-blue);
-}
-
 .hero {
-    height: 600px;
     width: 1600px;
     background-color: var(--sub-font-color);
     color: var(--main-background-color);
 }
 
 .hero-title {
-    height: 120px;
-    padding-top: 200px;
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
+    letter-spacing: calc(3*(1em/50));
     text-transform: uppercase;
     text-align: center;
 }
 
-button {
-    font-family: inherit;
-}
-
 .order-button {
-    height: 50px;
-    width: 200px;
     color: var(--main-background-color);
     background-color: var(--main-blue);
     border: none;
-    font-size: 16px;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.875;
+    letter-spacing: calc(3*(1em/50));
     cursor: pointer;
-    margin-left: 700px;
 }
 
 .visually-hidden {
@@ -117,57 +101,50 @@ button {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
+    letter-spacing: calc(3*(1em/50)/2);
 }
 
 .peculiarity-text {
-    padding-top: 0;
-    line-height: 1.78;
     color: var(--secondary-font-color);
+    line-height: 1.78;
+    letter-spacing: calc(3*(1em/50)/2);
 }
 
-.what-we-do {
-    text-align: center;
-    padding-top: 0;
-    margin-top: 94px;
-}
-
-h2 {
+.what-we-do-title, .our-team-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.17;
+    letter-spacing: calc(3*(1em/50)/2);
 }
 
 .our-team {
     background-color: var(--secondary-background-color);
     text-align: center;
-    margin-top: 94px;
-    padding-top: 94px;
 }
 
 .team-member {
-    margin-top: 30px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.19;
+    letter-spacing: calc(3*(1em/50)/2);
 }
 
 .team-member-text {
-    margin-top: 10px;
     font-size: 16px;
     line-height: 1.19;
     color: var(--secondary-font-color);
+    letter-spacing: calc(3*(1em/50)/2);
 }
 
 .button-portfolio {
     background-color: var(--secondary-background-color);
-    height: 38px;
     border: none;
+    border-radius: 4px;
+    cursor: pointer;
     font-size: 16px;
     font-weight: 500;
-    line-height: 2.375;
-    border-radius: 4px;
-    margin-top: 0;
-    cursor: pointer;
+    line-height: 1.625;
+    letter-spacing: calc(3*(1em/50)/2);
 }
 
 .button-portfolio:hover {
@@ -184,36 +161,37 @@ h2 {
     font-size: 18px;
     line-height: 2;
     font-weight: 700;
-    padding: 20px 24px 4px;
+    letter-spacing: calc(3*(1em/50));
 }
 
 .img-text {
     font-size: 16px;
     line-height: 1.875;
-    padding: 4px 24px 20px;
+    letter-spacing: calc(3*(1em/50)/2);
     color: var(--secondary-font-color);
 }
 
 .footer {
     background-color: var(--sub-font-color);
-    /*padding-left: 215px;*/
-    padding-top: 60px;
-    padding-bottom: 60px;
     color: var(--main-background-color); 
-}
-
-.contacts {
-    margin-top: 20px;
-    margin-bottom: 60px;
 }
 
 .contacts-down {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: calc(3*(1em/50)/2);
 }
 
 .address {
-    color: rgba(255, 255, 255, 1);
-    font-style: normal;
-    line-height: 1.5;   
+    color: inherit;
+}
+
+.contacts-down:hover {
+    color: var(--main-blue);
+}
+
+.contacts-down:focus {
+    color: var(--main-blue);
 }
