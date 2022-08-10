@@ -57,7 +57,6 @@ body {
 }
 
 .hero {
-    width: 1600px;
     background-color: var(--sub-font-color);
     color: var(--main-background-color);
 }
@@ -83,7 +82,7 @@ body {
     cursor: pointer;
 }
 
-.visually-hidden {
+/*.visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -94,7 +93,7 @@ body {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-}
+}*/
 
 .peculiarity-title {
     font-size: 14px;
@@ -144,7 +143,7 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.625;
-    letter-spacing: calc(3*(1em/50)/2);
+    letter-spacing: 0.03em;
 }
 
 .button-portfolio:hover {
@@ -161,13 +160,13 @@ body {
     font-size: 18px;
     line-height: 2;
     font-weight: 700;
-    letter-spacing: calc(3*(1em/50));
+    letter-spacing: 0.06em;
 }
 
 .img-text {
     font-size: 16px;
     line-height: 1.875;
-    letter-spacing: calc(3*(1em/50)/2);
+    letter-spacing: 0.03em;
     color: var(--secondary-font-color);
 }
 
@@ -181,7 +180,7 @@ body {
     font-style: normal;
     text-decoration: none;
     line-height: 1.5;
-    letter-spacing: calc(3*(1em/50)/2);
+    letter-spacing: 0.03em;
 }
 
 .address {
